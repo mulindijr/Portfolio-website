@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    background: url(images/code-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    
+}
+.logo{
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    color: aquamarine;
+}
+.navbar-dark{
+    background-color: black;
+}
+.navbar ul{
+    display: flex;
+    margin: 30px;
+}
+.navbar ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 160px;
+}
+.text p{
+    text-align: center;
+    font-size: 35px;
+    margin: 30px;
+    color: white;
+}
+/* About Me */
+.about-section{
+    margin: 30px;
+}
+ .about-section h1{
+    text-align: center;
+ }
+
+ .about{
+    display: flex;
+ }
+ .about-img{
+    width: 50%;
+ }
+ .about-img img{
+    width: 100%;
+    border-radius: 10px;
+ }
+ .about-me{
+    width: 100%;
+    margin-left: 20px;
+ }
+.about-me p{
+    font-size: 20px;
+}
+
+/*SERVICES SECTION*/
+.services-section{
+    margin: 30px;
+}
+.services-section h1{
+    text-align: center;
+}
+.services-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.service-description{
+    width: 30%;
+    min-width: 250px;
+    margin-top: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.service-description p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+/* Portfolio Section */
+.Portfolio-section{
+    margin: 20px;
+}
+.Portfolio-section h1{
+    text-align: center;
+}
+.Portfolio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Portfolio{
+    width: 30%;
+    min-width: 250px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 11px;
+    margin: 10px;
+}
+.Portfolio img{
+    height: 150px;
+    width: 100%; 
+}
+.Portfolio p{
+    font-size: 18px;
+}
+.Portfolio h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Contact Me*/
+.contact{
+    margin: 30px;
+}
+.contact   h1{
+    text-align: center;
+}
+.contact-me{
+    display: flex;
+    padding-top: 20px;
+}
+.map{
+    width: 50%;
+    border-radius: 50px;
+}
+.form{
+    width: 100%;
+    padding-left: 20px;
+}
+.form input{
+    width: 70%;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+}
+.form textarea{
+    width: 70%;
+    height: 115px;
+    outline: none;
+    font-size: 20px;
+}
+.form input:last-child{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #333;
+    padding: 30px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #fff; /* Icon color */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Icon color on hover */
+}
+
